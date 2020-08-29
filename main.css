@@ -1,8 +1,14 @@
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 300 15px 'Raleway', Lato;
     line-height: 1.8;
-    color: #818181;
+    /* color: #818181; */
   }
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/pexels1.jpg");
+  min-height: 100%;
+}
 #imagemodal{
   padding: 10% 0;
   width: 100%;
@@ -78,10 +84,9 @@ body {
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #424242;
+    font-weight: 700 !important;
     color: #fff;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
   }
   .container-fluid {
     padding: 60px 50px;
@@ -167,15 +172,15 @@ body {
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #424242;
+    background-color: transparent;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif;
   }
+  .navbar.scrolled { background-color: #000 !important; transition: background-color 200ms linear; }
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
   }

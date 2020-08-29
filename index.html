@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -45,9 +45,9 @@
   
 </nav>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center bgimg-1">
   <h1>(R)akademi</h1> 
-  <p>Telah hadir, tempat belajar robotik dan programming terpadu di Singaraja, Bali!</p>
+  <span>Telah hadir, tempat belajar robotik dan programming terpadu di Singaraja, Bali!</span><br>
   <div id="typed-strings">
     <p>Ingin belajar <strong>Robotik? ^1000 </strong></p>
     <p>Ingin belajar <strong>Aduino </strong></p>
@@ -225,7 +225,9 @@ $(function() {
 		$('.pop').on('click', function() {
 			$('.imagepreview').attr('src', $(this).attr('src'));
 			$('#imagemodal').modal('show');   
-		});		
+		});	
+
+    $(document).scroll(function () { var $nav = $(".navbar"); $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()); });	
 });
 </script>
 
