@@ -111,6 +111,7 @@ h4 {
   font-weight: 700 !important;
   color: #fff;
   padding: 100px 25px;
+  margin-bottom: 0;
 }
 
 .container-fluid {
@@ -311,4 +312,28 @@ footer .glyphicon {
     width: 100%;
     padding: 5%;
   }
+}
+#divider {
+  position: relative;
+  margin: 5px 0;
+}
+.custom-shape-divider-bottom-1600853981 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600853981 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 87px;
+}
+
+.custom-shape-divider-bottom-1600853981 .shape-fill {
+  fill: #ffffff;
 }
