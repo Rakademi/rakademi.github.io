@@ -304,15 +304,14 @@ footer .glyphicon {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .logo {
-    font-size: 150px;
-  }
-  .container-fluid {
-    width: 100%;
-    padding: 5%;
-  }
+.modal-dialog {
+  margin: 100px auto;
 }
+
+.modal-content{
+  border-radius: 0;
+}
+
 #divider {
   position: relative;
   margin: 5px 0;
@@ -337,3 +336,15 @@ footer .glyphicon {
 .custom-shape-divider-bottom-1600853981 .shape-fill {
   fill: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+  .container-fluid {
+    width: 100%;
+    padding: 5%;
+  }
+}
+
+
