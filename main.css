@@ -79,6 +79,7 @@ p a {
 
 .value-img {
   height: 225px;
+  max-width: 100%;
 }
 
 .contact-btn {
