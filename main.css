@@ -1,7 +1,11 @@
 body {
-  font: 300 15px "Raleway", Lato;
+  font: 300 18px "Raleway", Lato;
   line-height: 1.8;
   /* color: #818181; */
+}
+
+p a {
+  background-color: lightgray;
 }
 
 .bgimg-1 {
@@ -73,6 +77,10 @@ body {
   cursor: pointer;
 }
 
+.value-img {
+  height: 225px;
+}
+
 .contact-btn {
   border-radius: 0;
   border: grey 1px solid;
@@ -115,7 +123,7 @@ h4 {
 }
 
 .container-fluid {
-  padding: 60px 50px;
+  padding: 60px 200px;
 }
 
 .bg-grey {
@@ -271,7 +279,7 @@ footer .glyphicon {
   box-shadow: 20px 20px 33px rgba(33, 33, 33, 0.2);
 }
 
-#divider {
+.divider {
   position: relative;
   margin: 5px 0;
 }
@@ -293,6 +301,47 @@ footer .glyphicon {
 }
 
 .custom-shape-divider-bottom-1600853981 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1600921475 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1600921475 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-top-1600921475 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1600921799 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600921799 svg {
+  position: relative;
+  display: block;
+  width: calc(155% + 1.3px);
+  height: 92px;
+}
+
+.custom-shape-divider-bottom-1600921799 .shape-fill {
   fill: #ffffff;
 }
 
