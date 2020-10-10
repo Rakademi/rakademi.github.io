@@ -167,6 +167,30 @@ h4 {
   font-style: normal;
 }
 
+.team-card {
+  padding: 5px;
+}
+
+.team-card img {
+  width: 70%;
+}
+
+.team-card h3 {
+  margin-bottom: 0;
+}
+
+#value-details {
+  width: 75%;
+}
+
+#value-details h4 {
+  margin-bottom: 5px;
+}
+
+.personal-desc{
+  padding-top: 10px;
+}
+
 .panel {
   border: 1px solid #111;
   border-radius: 0 !important;
@@ -393,6 +417,12 @@ footer .glyphicon {
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
+  }
+  #value-details {
+    width: 100%;
+  }
+  .personal-desc{
+    padding-top: 0;
   }
 }
 
