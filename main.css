@@ -187,7 +187,7 @@ h4 {
   margin-bottom: 5px;
 }
 
-.personal-desc{
+.personal-desc {
   padding-top: 10px;
 }
 
@@ -370,6 +370,12 @@ footer .glyphicon {
   fill: #ffffff;
 }
 
+footer .w3-col {
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-right: 40px;
+}
+
 @keyframes slide {
   0% {
     opacity: 0;
@@ -421,7 +427,7 @@ footer .glyphicon {
   #value-details {
     width: 100%;
   }
-  .personal-desc{
+  .personal-desc {
     padding-top: 0;
   }
 }
@@ -433,5 +439,9 @@ footer .glyphicon {
   .container-fluid {
     width: 100%;
     padding: 5%;
+  }
+  #globeIcon,
+  #myMap {
+    display: none;
   }
 }
