@@ -436,6 +436,10 @@ footer .w3-col {
   .personal-desc {
     padding-top: 0;
   }
+  iframe {
+    width: 100%;
+    height: 40%;
+  }
 }
 
 @media screen and (max-width: 480px) {
